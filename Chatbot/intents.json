@@ -1,0 +1,276 @@
+{"intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! 👋 I can help you raise a system fault ticket. What issue are you facing?",
+        "Hi! Tell me about the system problem and I’ll create a ticket for you."
+      ]
+    },
+    {
+        "tag": "ai_ticket_creation",
+        "patterns": ["How do I create a ticket using AI?", "AI ticket submission process", "Create ticket with AI assistance", "Smart ticket creation"],
+        "responses": ["Our AI ticket creation system uses natural language processing to automatically extract key details from your description, categorize the fault, and assign priority. Simply describe the issue in plain English and the AI will structure it into a proper ticket."]
+    },
+    {
+        "tag": "ml_fault_prediction",
+        "patterns": ["How does ML predict system faults?", "Machine learning for fault prediction", "ML algorithms for failure prediction", "Predictive analytics using ML"],
+        "responses": ["ML algorithms analyze historical system logs, performance metrics, and failure patterns to identify early warning signs. Our models use regression, classification, and time-series analysis to predict faults with 92% accuracy up to 48 hours in advance."]
+    },
+    {
+        "tag": "ai_ticket_categorization",
+        "patterns": ["How does AI categorize tickets?", "Automatic ticket classification", "AI-based fault categorization", "Smart ticket sorting"],
+        "responses": ["AI uses NLP and pattern recognition to analyze ticket descriptions, identify keywords, and match them to predefined categories (Hardware, Software, Network, Security). The system continuously learns from engineer corrections to improve accuracy."]
+    },
+    {
+        "tag": "ml_anomaly_detection",
+        "patterns": ["ML anomaly detection for faults", "Detect anomalies using ML", "AI abnormal pattern detection", "ML for unusual system behavior"],
+        "responses": ["ML models establish normal system behavior baselines and continuously monitor metrics. When deviations exceed learned thresholds, the system automatically creates predictive tickets before failures occur, reducing downtime by 35%."]
+    },
+    {
+        "tag": "ai_priority_assignment",
+        "patterns": ["How does AI assign ticket priority?", "Automatic priority calculation", "AI severity assessment", "Smart priority assignment"],
+        "responses": ["AI analyzes multiple factors: affected users, business impact, system criticality, and historical resolution times. Our algorithm assigns scores from 1-100 and categorizes as Critical, High, Medium, or Low priority automatically."]
+    },
+    {
+        "tag": "ml_trend_analysis",
+        "patterns": ["ML for fault trend analysis", "Trend prediction using ML", "Historical pattern analysis", "ML-based trend forecasting"],
+        "responses": ["ML algorithms process years of ticket data to identify seasonal patterns, recurring issues, and failure correlations. This enables proactive maintenance scheduling and resource allocation before predicted high-incident periods."]
+    },
+    {
+        "tag": "ai_auto_resolution",
+        "patterns": ["AI automatic ticket resolution", "Self-healing with AI", "Auto-fix capabilities", "AI-driven solution implementation"],
+        "responses": ["For known issues, AI can execute predefined remediation scripts, restart services, clear caches, or apply patches. Approximately 40% of common faults are resolved automatically within minutes without human intervention."]
+    },
+    {
+        "tag": "ml_root_cause_analysis",
+        "patterns": ["ML for root cause analysis", "AI root cause identification", "Automated RCA with ML", "Finding root causes using AI"],
+        "responses": ["ML correlates multiple system events and performance data to identify the underlying cause of failures. The system maps dependency chains and identifies the originating fault point with 85% accuracy in complex environments."]
+    },
+    {
+        "tag": "ai_smart_routing",
+        "patterns": ["AI smart ticket routing", "Intelligent assignment to teams", "AI-based resource allocation", "Dynamic ticket routing"],
+        "responses": ["AI analyzes engineer skills, current workload, historical success rates with similar issues, and availability to route tickets optimally. This reduces resolution time by 30% compared to manual assignment."]
+    },
+    {
+        "tag": "ml_predictive_maintenance",
+        "patterns": ["ML for predictive maintenance", "AI maintenance scheduling", "Predictive replacement alerts", "ML-based maintenance windows"],
+        "responses": ["ML models predict hardware failures (disk wear, memory degradation, fan failures) by analyzing SMART data and performance trends. The system schedules maintenance and generates replacement tickets 2-4 weeks before expected failure."]
+    },
+    {
+        "tag": "ai_natural_language",
+        "patterns": ["NLP for ticket understanding", "AI natural language processing", "Understanding user descriptions", "Language processing for tickets"],
+        "responses": ["Our AI uses advanced NLP models to understand technical descriptions, extract entities (server names, error codes), identify symptoms, and even detect user frustration levels to prioritize emotionally charged tickets appropriately."]
+    },
+    {
+        "tag": "ml_capacity_prediction",
+        "patterns": ["ML capacity forecasting", "AI resource utilization prediction", "Predicting system capacity issues", "ML load forecasting"],
+        "responses": ["ML algorithms analyze usage patterns, growth trends, and seasonal variations to predict when systems will reach capacity limits. The system automatically creates capacity upgrade tickets 30 days before predicted constraints."]
+    },
+    {
+        "tag": "ai_solution_suggestions",
+        "patterns": ["AI solution recommendations", "Smart fix suggestions", "AI troubleshooting guidance", "Automated solution proposals"],
+        "responses": ["AI searches knowledge bases, past resolved tickets, and vendor documentation to suggest proven solutions. The system provides step-by-step resolution guides and even automated script execution options for engineers."]
+    },
+    {
+        "tag": "ml_failure_patterns",
+        "patterns": ["ML failure pattern recognition", "Identifying failure patterns", "Pattern detection using ML", "Recurring issue patterns"],
+        "responses": ["ML identifies clusters of similar failures, recognizing patterns across seemingly unrelated incidents. This enables systemic fixes rather than individual troubleshooting, addressing root causes that affect multiple systems."]
+    },
+    {
+        "tag": "ai_sla_monitoring",
+        "patterns": ["AI SLA compliance monitoring", "Automatic SLA tracking", "AI-based SLA predictions", "Smart SLA management"],
+        "responses": ["AI continuously monitors ticket progress against SLAs, predicts potential breaches based on current resolution pace, and automatically escalates or reassigns tickets to ensure 98% SLA compliance rates."]
+    },
+    {
+        "tag": "ml_incident_correlation",
+        "patterns": ["ML incident correlation", "AI event correlation", "Correlating multiple incidents", "ML relationship detection"],
+        "responses": ["ML algorithms identify relationships between seemingly independent incidents, recognizing cascading failures or common underlying issues. This reduces duplicate tickets and enables coordinated resolution efforts."]
+    },
+    {
+        "tag": "ai_automated_updates",
+        "patterns": ["AI automated status updates", "Smart ticket notifications", "Automatic progress reporting", "AI communication to users"],
+        "responses": ["AI generates human-readable status updates, predicts next steps, and sends proactive notifications to users. The system learns communication preferences and optimizes update frequency based on ticket priority and user feedback."]
+    },
+    {
+        "tag": "ml_performance_degradation",
+        "patterns": ["ML performance degradation detection", "AI slowdown prediction", "Predicting performance issues", "ML for gradual failure detection"],
+        "responses": ["ML models detect subtle performance degradation trends that humans often miss. By analyzing response time curves and resource utilization patterns, the system predicts impending performance failures days in advance."]
+    },
+    {
+        "tag": "ai_duplicate_detection",
+        "patterns": ["AI duplicate ticket detection", "Smart duplicate prevention", "Identifying similar tickets", "AI duplicate merging"],
+        "responses": ["AI uses semantic similarity analysis to detect duplicate tickets with 95% accuracy. The system either merges duplicates automatically or alerts engineers, reducing duplicate work by 60%."]
+    },
+    {
+        "tag": "ml_security_anomalies",
+        "patterns": ["ML for security fault prediction", "AI security anomaly detection", "Predicting security incidents", "ML-based security monitoring"],
+        "responses": ["ML establishes behavioral baselines for users and systems, detecting anomalous patterns that may indicate security faults or breaches. The system creates security incident tickets with enriched forensic data automatically."]
+    },
+    {
+        "tag": "ai_knowledge_management",
+        "patterns": ["AI knowledge base management", "Smart knowledge extraction", "AI learning from resolutions", "Automated knowledge creation"],
+        "responses": ["AI automatically extracts solution steps from resolved tickets, validates them with engineer feedback, and updates the knowledge base. The system identifies knowledge gaps and prompts experts to create missing documentation."]
+    },
+    {
+        "tag": "ml_network_fault_prediction",
+        "patterns": ["ML network fault prediction", "AI network failure forecasting", "Predicting network issues", "ML for network monitoring"],
+        "responses": ["ML analyzes network traffic patterns, error rates, latency trends, and device health metrics to predict network faults. The system can forecast switch failures, bandwidth constraints, and connectivity issues up to 72 hours ahead."]
+    },
+    {
+        "tag": "ai_sentiment_analysis",
+        "patterns": ["AI sentiment analysis for tickets", "Emotion detection in tickets", "Sentiment-based prioritization", "AI mood detection"],
+        "responses": ["AI analyzes ticket language for frustration, urgency, and emotional tone. Tickets with high frustration scores receive priority escalation, and response language is automatically adjusted to match user sentiment for better communication."]
+    },
+    {
+        "tag": "ml_database_failures",
+        "patterns": ["ML for database failure prediction", "AI database issue forecasting", "Predicting database faults", "ML database monitoring"],
+        "responses": ["ML models analyze query performance, lock contention, connection pools, and storage growth to predict database failures. The system alerts on predicted deadlocks, space exhaustion, and performance degradation before they impact users."]
+    },
+    {
+        "tag": "ai_workload_balancing",
+        "patterns": ["AI workload balancing", "Smart resource allocation", "AI team load optimization", "Dynamic workload distribution"],
+        "responses": ["AI continuously monitors engineer workloads, skill utilization, and ticket complexity to balance assignments dynamically. The system prevents burnout and optimizes throughput by redistributing tickets during peak periods."]
+    },
+    {
+        "tag": "ml_application_crashes",
+        "patterns": ["ML application crash prediction", "AI software failure forecasting", "Predicting application faults", "ML for crash analysis"],
+        "responses": ["ML analyzes application logs, memory usage patterns, exception frequencies, and user behavior to predict crashes. The system creates preemptive tickets for memory leaks, race conditions, and stability issues before they cause outages."]
+    },
+    {
+        "tag": "ai_multilingual_support",
+        "patterns": ["AI multilingual ticket handling", "Smart language translation", "Multilingual fault reporting", "AI translation for tickets"],
+        "responses": ["AI automatically translates tickets from 50+ languages, preserving technical terminology accuracy. The system understands and responds in the user's preferred language, breaking down language barriers in global support teams."]
+    },
+    {
+        "tag": "ml_storage_failures",
+        "patterns": ["ML storage failure prediction", "AI disk failure forecasting", "Predicting storage faults", "ML for storage health"],
+        "responses": ["ML analyzes SMART attributes, I/O patterns, bad sector growth, and performance degradation to predict storage failures with 94% accuracy. The system generates replacement tickets weeks before actual disk failures occur."]
+    },
+    {
+        "tag": "ai_escalation_prediction",
+        "patterns": ["AI escalation prediction", "Predicting ticket escalation needs", "Smart escalation forecasting", "AI escalation likelihood"],
+        "responses": ["AI predicts which tickets will likely require escalation based on complexity, resolver group history, and current progress. The system proactively involves senior engineers or specialized teams to prevent resolution delays."]
+    },
+    {
+        "tag": "ml_cloud_failures",
+        "patterns": ["ML cloud failure prediction", "AI cloud service forecasting", "Predicting cloud faults", "ML for cloud monitoring"],
+        "responses": ["ML analyzes cloud service metrics, API response times, quota utilization, and regional health to predict cloud-related failures. The system forecasts service limitations, cost overruns, and integration issues across multi-cloud environments."]
+    },
+    {
+        "tag": "ai_voice_tickets",
+        "patterns": ["AI voice-based ticketing", "Voice to ticket conversion", "Speech recognition for tickets", "Voice fault reporting"],
+        "responses": ["AI converts voice descriptions to structured tickets using speech recognition and NLP. Users can report faults via phone or voice assistants, and the system creates detailed tickets with extracted entities and priority assignment."]
+    },
+    {
+        "tag": "ml_cascading_failures",
+        "patterns": ["ML cascading failure prediction", "AI domino effect detection", "Predicting cascade failures", "ML for dependency analysis"],
+        "responses": ["ML maps system dependencies and simulates failure propagation to predict cascading effects. The system identifies single points of failure and creates preventive tickets before minor issues trigger major outages."]
+    },
+    {
+        "tag": "ai_image_analysis",
+        "patterns": ["AI image analysis for tickets", "Smart screenshot processing", "Image-based fault reporting", "AI visual ticket analysis"],
+        "responses": ["AI analyzes screenshots and error images using computer vision to extract error codes, identify UI issues, and recognize hardware problems. The system converts visual information into structured ticket data automatically."]
+    },
+    {
+        "tag": "ml_third_party_integrations",
+        "patterns": ["ML for third-party failure prediction", "AI external service monitoring", "Predicting integration faults", "ML vendor service forecasting"],
+        "responses": ["ML monitors API responses, latency patterns, and error rates from third-party services to predict integration failures. The system creates tickets for vendor issues before they impact dependent internal systems."]
+    },
+    {
+        "tag": "ai_resolution_time_prediction",
+        "patterns": ["AI resolution time prediction", "Smart ETA calculation", "Predicting fix timelines", "AI time to resolution"],
+        "responses": ["AI predicts resolution times based on issue similarity, assignee expertise, current workload, and historical data. The system provides accurate ETAs to users and automatically adjusts them as new information emerges."]
+    },
+    {
+        "tag": "ml_batch_job_failures",
+        "patterns": ["ML batch job failure prediction", "AI scheduled job monitoring", "Predicting job failures", "ML for batch processing"],
+        "responses": ["ML analyzes historical job success rates, resource consumption patterns, and dependency chains to predict batch job failures. The system creates preemptive intervention tickets before critical scheduled jobs fail."]
+    },
+    {
+        "tag": "ai_skill_gap_analysis",
+        "patterns": ["AI skill gap identification", "Smart capability analysis", "AI training need detection", "Skill gap prediction"],
+        "responses": ["AI analyzes ticket resolution patterns to identify skill gaps in support teams. The system recommends targeted training, creates knowledge sharing tickets, and adjusts routing to match evolving skill requirements."]
+    },
+    {
+        "tag": "ml_mobile_device_failures",
+        "patterns": ["ML mobile device failure prediction", "AI mobile issue forecasting", "Predicting mobile faults", "ML for device health"],
+        "responses": ["ML analyzes battery health, app crash reports, network connectivity patterns, and device diagnostics to predict mobile failures. The system creates replacement or repair tickets before devices become unusable."]
+    },
+    {
+        "tag": "ai_continuous_improvement",
+        "patterns": ["AI continuous improvement", "Smart system optimization", "AI learning from outcomes", "Continuous ticket process improvement"],
+        "responses": ["AI analyzes resolution outcomes, user satisfaction, and process efficiency to suggest workflow improvements. The system automatically optimizes routing rules, priority algorithms, and response templates based on performance metrics."]
+    },
+    {
+        "tag": "ml_virtualization_failures",
+        "patterns": ["ML virtualization failure prediction", "AI VM issue forecasting", "Predicting hypervisor faults", "ML for virtual environment"],
+        "responses": ["ML analyzes VM performance, resource contention, snapshot health, and host stability to predict virtualization failures. The system forecasts capacity exhaustion, migration issues, and host failures before they impact services."]
+    },
+    {
+        "tag": "ai_cost_prediction",
+        "patterns": ["AI cost impact prediction", "Smart financial impact analysis", "AI downtime cost calculation", "Predicting business impact"],
+        "responses": ["AI calculates financial impact of faults based on affected revenue streams, productivity loss, and SLA penalties. The system prioritizes tickets by financial exposure and provides cost-benefit analysis for resolution approaches."]
+    },
+    {
+        "tag": "ml_seasonal_patterns",
+        "patterns": ["ML seasonal fault patterns", "AI seasonal trend analysis", "Predicting seasonal issues", "ML for periodic failures"],
+        "responses": ["ML identifies seasonal patterns in fault occurrence (holiday traffic, fiscal month-ends, academic cycles) and predicts resource needs. The system pre-allocates support capacity and creates preventive maintenance tickets before peak periods."]
+    },
+    {
+        "tag": "ai_automated_testing",
+        "patterns": ["AI automated resolution testing", "Smart fix validation", "AI solution verification", "Automated testing of fixes"],
+        "responses": ["AI automatically tests proposed solutions in staging environments, validates fixes against acceptance criteria, and verifies no regression issues before implementation. This reduces failed deployments by 70%."]
+    },
+    {
+        "tag": "ml_sensor_based_failures",
+        "patterns": ["ML sensor data analysis", "AI IoT failure prediction", "Predicting hardware sensor failures", "ML for physical device monitoring"],
+        "responses": ["ML analyzes temperature, vibration, power quality, and other sensor data from physical devices to predict hardware failures. The system creates maintenance tickets based on predictive analytics from IoT sensor networks."]
+    },
+    {
+        "tag": "ai_collaboration_facilitation",
+        "patterns": ["AI collaboration support", "Smart team coordination", "AI-assisted teamwork", "Collaborative troubleshooting"],
+        "responses": ["AI identifies when multiple experts are needed, creates collaboration spaces, shares relevant ticket context, and facilitates knowledge transfer between teams. The system reduces resolution time for complex cross-domain issues by 45%."]
+    },
+    {
+        "tag": "ml_legacy_system_failures",
+        "patterns": ["ML legacy system failure prediction", "AI aging system monitoring", "Predicting legacy faults", "ML for outdated systems"],
+        "responses": ["ML analyzes aging patterns, component wear, and decreasing stability metrics to predict failures in legacy systems. The system creates migration or replacement tickets based on predicted end-of-life dates and risk assessments."]
+    },
+    {
+        "tag": "ai_compliance_monitoring",
+        "patterns": ["AI compliance issue detection", "Smart regulatory monitoring", "AI for compliance faults", "Automated compliance checking"],
+        "responses": ["AI monitors systems for compliance violations, security policy deviations, and regulatory requirements. The system automatically creates compliance incident tickets with severity based on regulatory impact and audit requirements."]
+    },
+    {
+        "tag": "ml_multi_tenant_failures",
+        "patterns": ["ML multi-tenant failure prediction", "AI shared environment monitoring", "Predicting tenant isolation failures", "ML for SaaS platforms"],
+        "responses": ["ML analyzes tenant behavior patterns, resource isolation metrics, and performance boundaries to predict multi-tenant failures. The system forecasts noisy neighbor issues, quota breaches, and isolation failures before they affect customers."]
+    },
+    {
+        "tag": "ai_feedback_analysis",
+        "patterns": ["AI user feedback analysis", "Smart satisfaction monitoring", "AI feedback sentiment", "Automated feedback processing"],
+        "responses": ["AI analyzes post-resolution survey responses, user comments, and satisfaction scores to identify improvement opportunities. The system creates quality improvement tickets and adjusts processes based on feedback patterns."]
+    },
+    {
+        "tag": "ml_data_corruption_prediction",
+        "patterns": ["ML data corruption prediction", "AI data integrity monitoring", "Predicting corruption events", "ML for data health"],
+        "responses": ["ML analyzes checksum validations, backup success rates, and storage health metrics to predict data corruption risks. The system creates preventive backup verification and data integrity check tickets before corruption occurs."]
+    },
+    {
+        "tag": "ai_disaster_recovery",
+        "patterns": ["AI disaster recovery prediction", "Smart DR failure forecasting", "AI for recovery testing", "Predicting DR readiness"],
+        "responses": ["AI analyzes recovery test results, RTO/RPO compliance, and infrastructure health to predict disaster recovery failures. The system creates improvement tickets for DR gaps and predicts recovery success probabilities for various failure scenarios."]
+    },
+    {
+        "tag": "ml_energy_failures",
+        "patterns": ["ML energy-related failures", "AI power issue prediction", "Predicting power faults", "ML for energy monitoring"],
+        "responses": ["ML analyzes power quality, UPS health, cooling efficiency, and energy consumption patterns to predict power-related failures. The system creates maintenance tickets for cooling systems, generator tests, and power distribution before failures cause outages."]
+    },
+    {
+        "tag": "ai_benchmark_comparison",
+        "patterns": ["AI benchmark performance", "Smart comparison analytics", "AI performance benchmarking", "Automated benchmark analysis"],
+        "responses": ["AI compares system performance against industry benchmarks and historical baselines to identify degradation trends. The system creates optimization tickets when performance deviates beyond acceptable thresholds compared to peer systems."]
+    }
+]
+}
